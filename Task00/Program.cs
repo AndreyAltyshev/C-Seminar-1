@@ -6,8 +6,8 @@
 //4 -> 16
 //-3 -> 9
 //-7 -> 49
+
 Console.Write("Введите квадрат какого числа надо посчитать: ");
 int num = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Квадрат числа равен: ");
 int square = num * num;
-Console.WriteLine(square);
+Console.WriteLine($"Квадрат числа {num} = {square}");
