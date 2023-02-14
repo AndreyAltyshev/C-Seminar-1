@@ -6,10 +6,14 @@
 25, 5 -> да
 8,9 -> нет */
 
+//Блок функций
+
 bool Squar(int number1, int number2)
 {
-    return number1 / number2 == number2 | number2 / number1 == number1;
+    return number1 / number2 == number2 || number2 / number1 == number1;
  }
+
+//Тело программы
 
 Console.Write("Введите первое число ");
 int num1 = Convert.ToInt32(Console.ReadLine());

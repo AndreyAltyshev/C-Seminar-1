@@ -5,10 +5,14 @@
 46 -> нет
 161 -> да */
 
+//Блок функций
+
 bool Multiplicity(int num)
 {
     return num % 7 == 0 && num % 23 == 0;
 }
+
+//Тело программы
 
 Console.Write("Введите число ");
 int number = Convert.ToInt32(Console.ReadLine());
