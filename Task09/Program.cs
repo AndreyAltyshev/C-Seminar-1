@@ -20,8 +20,10 @@ int MaxDigit(int num)
 {
     int firstDigit = num / 10;
     int secondGigit = num % 10;
-    if (firstDigit > secondGigit) return firstDigit;
-    else return secondGigit;
+    /* if (firstDigit > secondGigit) return firstDigit;
+    return secondGigit; */
+    int result = firstDigit > secondGigit ? firstDigit :secondGigit;
+    return result;
 }
 int maxDigit = MaxDigit(number);
 Console.WriteLine($"Наибольшая цифра числа => {maxDigit}");
