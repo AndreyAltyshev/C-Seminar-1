@@ -11,4 +11,4 @@ else if (day == "4") Console.Write("Четверг");
 else if (day == "5") Console.Write("Пятница");
 else if (day == "6") Console.Write("Суббота");
 else if (day == "7") Console.Write("Воскресение");
-else Console.Write("Такого дня не существует :)");
+else Console.Write("Такого дня не существует :) ");
