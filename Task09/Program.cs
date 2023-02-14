@@ -18,8 +18,8 @@ int number = new Random().Next(10, 100);
 Console.WriteLine($"Случайное число из отрезка 10 - 99 => {number}");
 int MaxDigit(int num)
 {
-    int firstDigit = number / 10;
-    int secondGigit = number % 10;
+    int firstDigit = num / 10;
+    int secondGigit = num % 10;
     if (firstDigit > secondGigit) return firstDigit;
     else return secondGigit;
 }
