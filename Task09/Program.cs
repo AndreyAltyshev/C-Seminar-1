@@ -22,7 +22,7 @@ int MaxDigit(int num)
     int secondGigit = num % 10;
     /* if (firstDigit > secondGigit) return firstDigit;
     return secondGigit; */
-    int result = firstDigit > secondGigit ? firstDigit :secondGigit;
+    int result = firstDigit > secondGigit ? firstDigit :secondGigit;        //тернарный оператор
     return result;
 }
 int maxDigit = MaxDigit(number);
