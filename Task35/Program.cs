@@ -54,4 +54,4 @@ Console.WriteLine();
 Console.WriteLine("отборка из какого диапазона? ");
 int minrange = Prompt("от ");
 int maxrange = Prompt("до ");
-Console.WriteLine($"В исходном массиве чисел лежащих в отрезке {minrange} до {maxrange}: {CountIfRangeArr(array, minrange, maxrange)}");
+Console.WriteLine($"Колличество эл-ов массива лежащих в отрезке [{minrange}, {maxrange}]: {CountIfRangeArr(array, minrange, maxrange)}");
